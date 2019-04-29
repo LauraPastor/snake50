@@ -135,7 +135,7 @@ function love.update(dt)
       end
 
 function love.draw()
-  if gameStart then
+if gameStart then
   love.graphics.setFont(hugeFont)
   love.graphics.printf("SNAKE", 0, WINDOW_HEIGHT / 2 - 64, WINDOW_WIDTH, 'center' )
   love.graphics.setFont(largeFont)
